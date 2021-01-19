@@ -1,0 +1,13 @@
+Name:		Pranav Deshpande
+B-Number:	B00817099
+Email:		pdeshpa3@binghamton.edu
+
+
+Following dependencies are needed before running the program
+
+npm install cors, mongo, express, body-parser, nodemon and cs544-ss
+
+All the test cases can be run according to logs.
+
+I have used two slack days.
+

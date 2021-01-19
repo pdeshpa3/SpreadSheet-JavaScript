@@ -1,0 +1,16 @@
+Name:		Pranav Deshpande
+B-Number:	B00817099
+Email:		pdeshpa3@binghamton.edu
+
+All the functionality mentioned in the Project is working(that is update cell, delete cell, clear spreadsheet and copy cell),
+But I have implemented the spreadsheet cells manually that is only from 'a to j' and '1 to 10'. The cells wont be rendered direcctly after J10. I haven't rendered the validation code.
+
+
+Run the Proj-3 solution given by the professor first by using the following command:
+./index.mjs 2345 mongodb://localhost:27017/cs544 &
+
+and my proj4-sol with the following command:
+npx nodemon --watch src ./index.mjs 2346 http://localhost:2345
+
+and run my application on localhost:2346/ with test-ss as spreadsheet name.
+

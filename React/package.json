@@ -1,0 +1,33 @@
+{
+  "name": "pdeshpa",
+  "version": "1.0.0",
+  "description": "Name:\t\tXXX B-Number:\tXXX Email:\t\tXXX",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build:dev": "NODE_ENV=development webpack --mode development;",
+    "build:prod": "mkdir -p prod; NODE_ENV=production webpack --mode production -o prod;",
+    "clean": "rm -rf dist prod",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cs544-ss": "file:../../../../../cs544/lib/cs544-ss",
+    "react": "^17.0.1",
+    "react-data-grid": "^7.0.0-canary.33",
+    "react-data-grid-addons": "^7.0.0-alpha.24",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-react": "^7.12.7",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^6.3.2",
+    "ignore-loader": "^0.1.2",
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
